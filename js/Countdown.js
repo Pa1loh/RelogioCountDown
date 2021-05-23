@@ -1,15 +1,15 @@
-export default class Countdown{
+export default class Countdown {
     constructor(futureDate){
         this.futureDate = futureDate;
     }
-    get actualDate(){
+    get _actualDate(){
         return new Date();
     }
     get _futureDate(){
         return new Date(this.futureDate);
     }
     get _TimeDiference(){
-        return this._futureDate.getTime() - this.actualDate.getTime();
+        return this._futureDate.getTime() - this._actualDate.getTime();
     }
 
     get days(){

@@ -1,6 +1,6 @@
 import Countdown from "./Countdown.js";
 
-const tempoParaOWWB = new coutdown("13 August 2020 20:00:00 GMT-0300");
+const tempoParaOWWB = new Countdown("08 january 2022 00:00:00 GMT-0300");
 const tempos = document.querySelectorAll("[data-time]");
 
 function mostrarTempo() {
